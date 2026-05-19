@@ -1,29 +1,28 @@
 {
   "expo": {
-    "name": "snake-memory-app",
-    "slug": "snake-memory-app",
-    "version": "1.0.0",
+    "name": "Path Memory",
+    "slug": "path-memory",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
+      "backgroundColor": "#0e0f11"
     },
     "android": {
+      "package": "com.snakememory.app",
+      "versionCode": 10,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+        "backgroundColor": "#0e0f11"
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "7b1e7770-e5ba-4806-bbe0-e56fd6a2e7b1"
+      }
     }
   }
 }
